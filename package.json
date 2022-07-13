@@ -1,0 +1,23 @@
+{
+  "name": "local-coding",
+  "version": "1.0.0",
+  "description": "practice the pilot project cypress UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaVaku/local-coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaVaku/local-coding/issues"
+  },
+  "homepage": "https://github.com/IrynaVaku/local-coding#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}

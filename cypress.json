@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://localcoding.us/",
+  "video": false,
+  "defaultCommandTimeout": 7000,
+  "ignoreTestFiles": ["**/1-getting-started/*", "**/2-advanced-examples/*"],
+  "viewportWidth": 1200
+}
