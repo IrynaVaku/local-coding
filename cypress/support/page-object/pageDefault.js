@@ -14,7 +14,28 @@ class HomePage {
             text: 'Local Coding',
             endpoint: '/',
           },
-          navMenu: {},
+          navMenuLinks: {
+            courses:{
+              selector: '[data-qa="topmenu-Courses"]',
+            text: 'Courses',
+            endpoint: '/course',
+            },
+            interviewQuestions:{
+              selector: '[data-qa="Interview Questions"]',
+            text: 'Interview Questions',
+            endpoint: '/flash',
+            },
+            diary:{
+              selector: '[data-qa="Diary"]',
+            text: 'Diary',
+            endpoint: '/diary',
+            },
+            challenges:{
+              selector: '[data-qa="Challenges"]',
+            text: 'Challenges',
+            endpoint: '/challenge',
+            },
+          },
           buttons: {
             logInBth: {
               selector: '[data-qa="login"]',

@@ -38,8 +38,21 @@ describe('Registration Page - Main Page Elements', () => {
       authPage.checkFirstName(
         authPage.pageElem.registrationPage.inputField.lastName
       ));
-    // This 2 its replaces all tests below//
-    /* it('Checking First Name Field', () => {
+    it('Checking Country Field exist', () =>
+      authPage.checkInputValue(
+        authPage.pageElem.registrationPage.inputField.country.titleDefault
+      ));
+    it('I Can Select Country in the Country List ', () => {
+      //authPage.changeInputValueToRandomFromList(
+      // authPage.pageElem.registrationPage.inputField.country.titleToCheck
+      //)
+      authPage.changeInputValueToRandomFromList();
+    });
+  });
+});
+
+// This 2 its replaces all tests below//
+/* it('Checking First Name Field', () => {
       cy.get(
         authPage.pageElem.registrationPage.inputField.firstName.selector
       ).should('be.visible');
@@ -65,5 +78,3 @@ describe('Registration Page - Main Page Elements', () => {
         authPage.pageElem.registrationPage.inputField.lastName.label
       );
     });*/
-  });
-});
